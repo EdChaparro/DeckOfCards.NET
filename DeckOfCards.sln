@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckOfCards", "src\DeckOfCards\DeckOfCards.csproj", "{0ADF1DEB-AB88-4D43-A5AD-98CC3E44BD52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CABCBF0D-5C57-4DD5-99B5-55A02B46CDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.DeckOfCards", "src\Tests\Test.DeckOfCards\Test.DeckOfCards.csproj", "{DA8E3DE8-8AAC-447F-B535-2F016C9478BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ADF1DEB-AB88-4D43-A5AD-98CC3E44BD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADF1DEB-AB88-4D43-A5AD-98CC3E44BD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADF1DEB-AB88-4D43-A5AD-98CC3E44BD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADF1DEB-AB88-4D43-A5AD-98CC3E44BD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8E3DE8-8AAC-447F-B535-2F016C9478BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8E3DE8-8AAC-447F-B535-2F016C9478BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8E3DE8-8AAC-447F-B535-2F016C9478BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8E3DE8-8AAC-447F-B535-2F016C9478BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA8E3DE8-8AAC-447F-B535-2F016C9478BA} = {CABCBF0D-5C57-4DD5-99B5-55A02B46CDBF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6312641-AF03-4462-B316-F410AB825B6B}
+	EndGlobalSection
+EndGlobal
