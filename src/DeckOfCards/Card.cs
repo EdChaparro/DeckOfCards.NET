@@ -35,8 +35,8 @@ namespace IntrepidProducts.DeckOfCards
             CardSuit = suit;
         }
 
-        public Rank CardRank { get; set; } 
-        public Suit CardSuit { get; set; }
+        public Rank CardRank { get; } 
+        public Suit CardSuit { get; }
 
         public bool IsAce => CardRank == Rank.Ace;
 
