@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>IntrepidProducts.DeckOfCards</AssemblyName>
     <RootNamespace>IntrepidProducts.DeckOfCards</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
