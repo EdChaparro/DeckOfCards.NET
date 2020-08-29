@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="intrepidproducts.common">
-      <HintPath>..\..\dependencies\intrepidproducts.common.dll</HintPath>
+    <Reference Include="IntrepidProducts.Common">
+      <HintPath>..\..\dependencies\IntrepidProducts.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
 
