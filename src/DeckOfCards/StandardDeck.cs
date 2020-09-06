@@ -22,7 +22,7 @@ namespace IntrepidProducts.DeckOfCards
             return this;
         }
 
-        public static IList<Card> NewDeck()
+        private static IList<Card> NewDeck()
         {
             var ranks = Rank.Ace.GetAllValues().ToList();
             var suits = Suit.Clubs.GetAllValues().ToList();
