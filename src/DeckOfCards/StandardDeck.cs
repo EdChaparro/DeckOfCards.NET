@@ -9,18 +9,7 @@ namespace IntrepidProducts.DeckOfCards
     {
         private IList<Card> _cards = new List<Card>();
 
-        public IList<Card> Cards
-        {
-            get
-            {
-                if (_cards.Any())
-                {
-                    return _cards;
-                }
-
-                return _cards = NewDeck();
-            }
-        }
+        public IList<Card> Cards => _cards.Any() ? _cards : _cards = NewDeck();
 
         public StandardDeck Shuffle()
         {
